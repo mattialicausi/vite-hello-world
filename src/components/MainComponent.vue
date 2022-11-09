@@ -7,6 +7,8 @@
     </main>
 </template>
 
+
+
 <script>
     export default {
         name: 'MainComponent',
@@ -17,21 +19,22 @@
             }
         },
             methods: {
-                callApi(){
-                    axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2017-07-08&end_date=2017-07-10').then((res)=>{
-                    this.listaImg = res.data
-                    console.log(res.data)
-                    })
-                }
+                // callApi(){
+                //     axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2017-07-08&end_date=2017-07-10').then((res)=>{
+                //     this.listaImg = res.data
+                //     console.log(res.data)
+                //     })
+                //}
                 
             },
 
             mounted(){
-                this.callApi();
+                // this.callApi();
             },
         
     }
 </script>
+
 
 <style lang="css">
     header {
