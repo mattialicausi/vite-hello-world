@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>{{titolo}}</h1>
+        <h2>{{titolo}}</h2>
     </main>
 </template>
 
@@ -18,9 +18,11 @@
 <style lang="css">
     main {
         margin: 0 auto;
+        height: auto;
+        width: 100%;
     }
 
-    h1{
+    h2{
         text-align: center;
     }
 </style>
